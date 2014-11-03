@@ -1,0 +1,103 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+*/@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+
+/*font-family: 'Source Sans Pro', sans-serif;*/
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+@font-face {
+      font-family: "allerb";
+       font-style: normal;
+      font-weight: normal;
+      src: url("../fonts/Aller_Bd.ttf") format("truetype");
+
+}
+
+@font-face {
+      font-family: "allerl";
+       font-style: normal;
+      font-weight: normal;
+      src: url("../fonts/Aller_Lt.ttf") format("truetype");
+
+}
+
+@font-face {
+      font-family: "olivier";
+       font-style: normal;
+      font-weight: normal;
+      src: url("../fonts/olivier_demo.ttf") format("truetype");
+
+}
+
+.container{
+  position: relative;
+
+}
+
+
+
+.olivier{
+    font-family: 'olivier';
+    font-weight: 100;
+}
+
+.allerl{
+    font-family: 'allerl';
+
+}
+
+
+.allerb{
+    font-family: 'allerb';
+
+}
+
+
+.backtop{
+
+  background-image: url(../img/back1.png),  url(../img/back2.png) ;
+  background-position: top, bottom;
+  background-repeat: repeat-x;
+}
+
+/*.backbottom{
+  height: 109px;
+  background-image: url(../img/back2.png);
+ /* position: absolute;
+  left: 50%;
+  margin-left: -312px;
+}*/
+
+.enlinea{
+     display: inline-block;
+}
+
+/*MARGENES*/
+.margen1{ margin-top: 30px;}
+.margen2{ margin-top: 50px;}
+.margen3{ margin-top: 70px;}
+.margen4{ margin-top: 120px;}
+
+/*PADDING*/
+.inter{line-height: 60px;}
+.inter2{line-height: 80px;}
+.inter3{line-height: 20px;}
+
+/*TAMAÑOS LETRAS*/
+.text00{font-size: 1.2em;}
+.text0{font-size: 1.5em;}
+.text1{font-size: 3em;}
+.text2{font-size: 4em;}
+.text3{font-size: 5em;}
+.text4{font-size: 6em;}
+.text5{font-size: 7em;}
+
+/*COLORES LETRAS*/
+.gris{color: #a7a9ac;}
+.gris2{color: #404040;}
+.verde{color:#007740;}
